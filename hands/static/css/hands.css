@@ -18,23 +18,25 @@ body {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  margin-right: 20px;
   font-size: 25px;
   color: white;
   display: block;
+  margin-right: 20px;
   transition: 0.5s;
+  border-top: 2px solid rgba(255,255,255,.1);
+  border-bottom: 2px solid black;
 }
 .sidenav a i{
-  margin-right: 15px;
+  margin-right: 16px;
 }
-.sidenav a:hover {
+.sidenav a,i:hover {
   color: white;
 }
 
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 170px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -53,17 +55,15 @@ body {
     left:24px;
 
    }
- section h1{ padding-top: 300px;
+ section h1{ padding-top: 200px;
   color:#cc3300;
   font-size: 90px;
   margin-left: 5%;
 }
-section h6{padding-left: 20px;
+section h6{
+  padding-top: 10px;
+  padding-left: 20px;
   margin-left: 5%;
   font-size: 30px;
-  color:#f2ffcc;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  color:#cc3300;
 }
