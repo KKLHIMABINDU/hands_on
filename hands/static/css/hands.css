@@ -42,9 +42,9 @@ body {
 }
 .logo{
   position: absolute;
-  height: 70px;
+  height: 85px;
   top: 20px;
-  left: 24px;
+  left: 20px;
   font-size: 18px;
   border-radius: 50%;
   opacity: 0.8;
@@ -55,15 +55,18 @@ body {
     left:24px;
 
    }
- section h1{ padding-top: 200px;
+ section h1{ padding-top: 400px;
   color:#cc3300;
-  font-size: 90px;
+  font-size: 70px;
   margin-left: 5%;
+  font-weight: bolder;
+
 }
 section h6{
-  padding-top: 10px;
+  padding-top: -10px;
   padding-left: 20px;
   margin-left: 5%;
   font-size: 30px;
   color:#cc3300;
+  font-weight: bold;
 }
