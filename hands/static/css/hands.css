@@ -72,9 +72,7 @@ section h6{
 #donation{
   position: absolute;
 padding: 10px 10px 10px 10px;
-text-align: center;
-font-size: 25px;
+font-size: 20px;
 font-weight: bolder;
-left: 45%;
-bottom: 25px;
+bottom: 10px;
 }
