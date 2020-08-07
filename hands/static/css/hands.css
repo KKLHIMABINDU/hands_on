@@ -69,3 +69,12 @@ section h6{
   color:#cc3300;
   font-weight: bold;
 }
+#donation{
+  position: absolute;
+padding: 10px 10px 10px 10px;
+text-align: center;
+font-size: 25px;
+font-weight: bolder;
+left: 45%;
+bottom: 25px;
+}
