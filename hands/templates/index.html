@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/fund.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/hands.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+</head>
+<body>
+	{%include 'includes/navbar.html'%}
+<section style="background: url('{%static 'images/home.jpg'%}') no-repeat;background-position: center;
+   	background-size: cover;
+   	height: 100vh;
+   	transition: all.5s;">
+ 	<h1 class="text-center">Hands On</h1>
+ 	<h6 class="text-center">We raise by lifting others</h6>
+ </section>

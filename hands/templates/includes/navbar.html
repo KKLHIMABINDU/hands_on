@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-{% load static %}
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/fund.js' %}"></script>
+{%load static%}
 <link rel="stylesheet" type="text/css" href="{% static 'css/hands.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
-</head>
-<body>
-<section style="background: url('{%static 'images/home.jpg'%}') no-repeat;background-position: center;
-   	background-size: cover;
-   	height: 100vh;
-   	transition: all.5s;">
- 	<img class="logo" src="{% static 'images/logo.jpeg'%}" >
- 	<span   class="rounded" id = "menu" style="font-size:40px;cursor:pointer;padding:0px 10px 0px 10px; background:#042331;color: white;left: 85%" onclick="openNav()">&#9776;</span>
- 	<h1 class="text-center">Hands On</h1>
- 	<h6 class="text-center">We raise by lifting others</h6>
- </section>
 <div id="mySidenav" class="sidenav">
 	<header>Hands On</header>
 		<ul>
@@ -31,5 +12,5 @@
 			<li><a href="#"><i class="fas fa-share-square"></i>Share</a></li>
 		</ul>
 	</div> 
-</body>
-</html> 
+<img class="logo" src="{% static 'images/logo.jpeg'%}" >
+ 	<span   class="rounded" id = "menu" style="font-size:40px;cursor:pointer;padding:0px 10px 0px 10px; background:#042331;color: white;left: 85%" onclick="openNav()">&#9776;</span>
