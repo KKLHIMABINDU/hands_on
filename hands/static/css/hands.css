@@ -43,8 +43,8 @@ body {
 .logo{
   position: absolute;
   height: 85px;
-  top: 20px;
-  left: 20px;
+  top: 5%;
+  left: 5%;
   font-size: 18px;
   border-radius: 50%;
   opacity: 0.8;
@@ -55,9 +55,9 @@ body {
     left:24px;
 
    }
- section h1{ padding-top: 400px;
+ section h1{ padding-top: 350px;
   color:#cc3300;
-  font-size: 70px;
+  font-size: 73px;
   margin-left: 5%;
   font-weight: bolder;
 
